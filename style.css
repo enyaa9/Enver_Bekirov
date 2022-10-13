@@ -1,0 +1,325 @@
+:root {
+  --var-fc:#F0EBD8;
+  --var-body-bg:#1D2D44;
+  --var-sec-bg:#3E5C76;
+  --var-line-bg:#748CAB;
+  --var-img: url(icons/sun.svg);
+  --var-gif: url(icons/hello.gif);
+}
+
+.dark-theme {
+  --var-fc:#1D2D44;
+  --var-body-bg:#F0EBD8;
+  --var-sec-bg:#748CAB;
+  --var-line-bg:#3E5C76;
+  --var-img: url(icons/moon.svg);
+  --var-gif: url(icons/hello2.gif);
+}
+
+.moon_sun {
+  background-image: var(--var-img);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Inconsolata", monospace;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin: 0;
+  background-color: var(--var-body-bg);
+}
+
+.section_one {
+  width: 100%;
+  height: 45px;
+  border-bottom: 2px solid #0D1321;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.section_one_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+}
+.section_one_logo {
+  font-family: "Kaushan Script", cursive;
+  font-size: 40px;
+  font-weight: 500;
+}
+.section_one_logo a {
+  text-decoration: none;
+  color: var(--var-fc);
+}
+.section_one_link {
+  width: 380px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section_one_link a {
+  text-decoration: none;
+  color: var(--var-fc);
+}
+
+.section_one_link a:hover {
+  text-decoration: underline;
+}
+
+.section_two {
+  width: 95%;
+  margin: 0 auto;
+  background-color: var(--var-sec-bg);
+  border-radius: 30px;
+  box-shadow: 0px 0px 12px;
+}
+.section_two_main {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 50px;
+  color: var(--var-fc);
+}
+.section_two_header {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.section_two_header span {
+  padding-top: 30px;
+  font-size: 100px;
+}
+.section_two_header h1 {
+  font-size: 30px;
+  margin: 0;
+}
+.section_two_header h2 {
+  font-size: 25px;
+  margin: 0;
+}
+.section_two_gif {
+  width: 300px;
+  height: 300px;
+  background-image: var(--var-gif);
+}
+.section_two_text {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.section_two_subheader {
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 95px;
+  padding-bottom: 50px;
+}
+
+.line {
+  margin-top: 30px;
+  border-radius: 30px;
+  background-color: var(--var-line-bg);
+  height: 15px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  box-shadow: 0 0 5px;
+}
+
+.section_three {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: var(--var-sec-bg);
+  border-radius: 30px;
+  box-shadow: 0px 0px 12px;
+}
+.section_three_main {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: var(--var-fc);
+}
+.section_three_header {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.section_three_header img {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+.section_three_subheader {
+  margin-top: 50px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 3px solid #748CAB;
+  padding: 10px;
+}
+
+.section_four {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: var(--var-sec-bg);
+  border-radius: 30px;
+  box-shadow: 0px 0px 12px;
+}
+.section_four_main {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: var(--var-fc);
+}
+.section_four_header {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.section_four_header img {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+.section_four_subheader {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.section_four_subheader img {
+  width: 120px;
+  height: 120px;
+}
+.section_four_flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section_four_flex span {
+  margin-top: 5px;
+}
+
+.section_five {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: var(--var-sec-bg);
+  border-radius: 30px;
+  box-shadow: 0px 0px 12px;
+}
+.section_five_main {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: var(--var-fc);
+}
+.section_five_header {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.section_five_header img {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+.section_five_subheader {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section_five_subheader a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--var-fc);
+  font-weight: 500;
+}
+.section_five_subheader img {
+  width: 120px;
+  height: 120px;
+}
+.section_five_subheader span {
+  margin-top: 10px;
+  font-size: 25px;
+}
+.section_five_subheader a:hover {
+  transform: translateY(-7px);
+}
+.section_five_text {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+  font-size: 12px;
+}
+.section_five_img {
+  width: 60px;
+  height: 60px;
+  margin-left: 55px;
+  margin-top: 15px;
+}
+
+.section_five_subheader a:hover {
+  text-decoration: underline;
+}
+
+.section_six {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-top: 2px solid #0D1321;
+}
+.section_six_main {
+  width: 85%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  color: var(--var-fc);
+}
+.section_six_main span {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -85px;
+  font-family: "Kaushan Script", cursive;
+  font-size: 40px;
+  font-weight: 500;
+}
+.section_six_flex {
+  display: flex;
+  align-items: center;
+  padding: 5px 0 5px 0;
+}
+.section_six_flex img {
+  width: 25px;
+  height: 25px;
+  padding: 3px;
+}
+.section_six_flex a {
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--var-fc);
+  margin-left: 5px;
+}
+
+.section_six_flex a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
